@@ -1,6 +1,6 @@
 import Vue from 'vue'
 import App from './App.vue'
-import pages from './plugins/vue-little-pages'
+import pages from '../packages/index.js'
 import './assets/global.css'
 
 Vue.config.productionTip = false

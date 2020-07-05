@@ -1,14 +1,18 @@
 {
-  "name": "vue-little-swiper",
-  "version": "0.1.0",
-  "private": true,
+  "name": "vue-little-pages",
+  "version": "0.1.3",
+  "description": "the vue-little-pages base on vue.js that can show pages turning effect on mobile",
+  "main": "lib/vue-little-pages.umd.min.js",
+  "private": false,
+  "license": "MIT",
+  "author": "chenjycm@163.com",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "lib": "vue-cli-service build --target lib --name vue-little-pages --dest lib ./packages/index.js"
   },
   "dependencies": {
-    "core-js": "^3.6.5",
     "vue": "^2.6.11"
   },
   "devDependencies": {
